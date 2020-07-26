@@ -1,0 +1,18 @@
+.nav-bar {
+    overflow: visible;
+    background-color: orchid;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+img {
+    float: left;
+    border: 1px solid rgb(26, 30, 48);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-right: 25px;
+}
+
+
+
