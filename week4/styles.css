@@ -1,6 +1,6 @@
 .nav-bar {
     overflow: visible;
-    background-color: orchid;
+    background-color: rgb(112, 202, 218);
     position: fixed;
     top: 0;
     text-align: center;
@@ -15,7 +15,7 @@ img {
     margin-right: 25px;
 }
 .blog {
-    background-color: lawngreen;
+    background-color: turquoise;
 }
 h2, h5 {
     text-align: center;
