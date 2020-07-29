@@ -47,7 +47,9 @@ ul {
 table {
     border: solid;
     margin-left: 100px;
+    background-color: ivory;
 }
-footer {
-    
+.joke:hover {
+    color: white;
+    font-size: 10px;
 }
