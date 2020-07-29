@@ -6,6 +6,12 @@
     text-align: center;
     width: 100%;
 }
+h1 {
+    text-align: center;
+    text-decoration-line: underline; 
+    text-decoration-color: purple;
+    color: rebeccapurple;
+}
 body {
     background-image: url(https://p2.piqsels.com/preview/447/494/530/background-green-gardening-spring.jpg);
     background-repeat: no-repeat;
@@ -13,4 +19,35 @@ body {
      background-size: cover;
      background-attachment: fixed;
 }
-
+.bold {
+    text-align: center;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+}
+.services {
+    font-family: 'Alice', serif;
+}
+h2 {
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+span {
+    font-style:italic;
+    color: black;
+    text-align: center;
+}
+ul {
+    font-style: oblique; 
+    border: solid;
+    margin-left: 20px;
+}
+table {
+    border: solid;
+    margin-left: 100px;
+}
+footer {
+    
+}
