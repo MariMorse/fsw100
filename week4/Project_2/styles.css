@@ -2,12 +2,15 @@
     overflow: visible;
     background-color: lightblue;
     position: fixed;
-    top: 0;
+    top: 0%;
     text-align: center;
     width: 100%;
 }
-main {
-    background-image: ("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRao7BJi76zwWOhV72-IzvQnGlqHRgdYuWQoQ&usqp=CAU");
-    
-
+body {
+    background-image: url(https://p2.piqsels.com/preview/447/494/530/background-green-gardening-spring.jpg);
+    background-repeat: no-repeat;
+     background-position: top;
+     background-size: cover;
+     background-attachment: fixed;
 }
+
