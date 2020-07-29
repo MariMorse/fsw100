@@ -56,13 +56,12 @@ table {
     color: lime;
     animation: blinker 1s linear infinite;
   }
-  
   @keyframes blinker {
     50% {
       opacity: 0;
     }
   }
-.joke:hover {
+.joke {
     color: white;
     font-size: 10px;
 }
