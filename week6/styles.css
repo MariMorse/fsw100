@@ -52,6 +52,8 @@ h1 {
 }
 .item3:hover {
     background-image: linear-gradient(blue, yellow);
+    transition: margin-left 1s ease-in-out .5s;
+    margin: 100px;
     box-shadow: 10px 10px black;
     width: 500px;
 }
@@ -68,6 +70,6 @@ h1 {
 }
 .item6:hover {
     transition: margin-right .5s ease-in-out .5s;
-    margin-left: 30px;
+    margin: 75px;
     text-shadow: 10px whitesmoke;
 }
