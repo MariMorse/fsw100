@@ -69,7 +69,8 @@ h1 {
     border-radius: unset;
 }
 .item6:hover {
-    transition: margin-right .5s ease-in-out .5s;
-    margin: 75px;
-    text-shadow: 10px whitesmoke;
+    border-width:5px;  
+    border-style:dotted solid double dashed;
+    border-right-color: #66B032; 
+    border-left-color: aqua;
 }
