@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     background-color: #9BD770;
-    grid-column: 1/ 5;
     height: 30px;
     border: #B85B14 solid 4px;
     border-radius: 10px;
@@ -44,8 +43,8 @@ p {
 
 }
 .images {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: space-around;
     padding: 20px;
     border-radius: 10px;
     border:#B85B14 solid 4px;  
@@ -54,7 +53,6 @@ p {
 .general {
     display: grid;
     grid-column: 1/5;
-    align-items: center;
     background-color: #9BD770;
     border-radius: 10px;
     padding: 10px;
@@ -69,11 +67,178 @@ p {
     border-radius: 10px;
 }
 .grid-container2 {
-
+    display: grid;
+    background-color: #9BD770;
+    border-radius: 10px;
+    border: #B85B14 solid 4px;
+}
+.grid-item {
+    padding: 10px;
+}
+.item1 {
+    grid-column: 1/ 2; 
+    align-content: center;   
+}
+.item2 {
+    grid-column: 2/ 3;
+}
+.item3 {
+    grid-column: 3/ 4;
+}
+.item4 {
+    grid-column: 4/ 5;
+}
+.item5 {
+    grid-column: 2/ 3;
+}
+.item6 {
+    grid-column: 3/ 4;
 }
 .sidebar1 {
-
+    display: flex;
+    background-color: #9BD770;
+    border: #B85B14 solid 4px;
+    border-radius: 10px;
 }
 footer {
-
+    background-color: #9BD770;
+    border: #B85B14 solid 4px;
+    border-radius: 10px;
+}
+.grid-container2:hover {
+    display: grid;
+    width: 400px;
+    transition-duration: ease-in 5s;
+}
+@media only screen and (min-width: 600px) {
+    /*For Tablets:*/
+.grid-container {
+        display: flex;
+}
+.nav-bar {
+    background-color: #0AC1F2; 
+    border: #0602E6 ridge 5px;
+}     
+.head {
+    border: #0A6830 ridge 5px;
+    border-radius: 10px;
+    background-color: slategrey;
+}
+.main {
+    background-color: slategrey;
+    border: #0602E6 ridge 5px;
+} 
+.table {
+    background-image: linear-gradient(#0AC1F2, white);
+    border: #0602E6 ridge 5px;
+} 
+.images {
+     width: auto;
+    display: grid;
+    flex-direction: row;
+    background-image: linear-gradient(white, #0AC1F2);
+    border: #0602E6 ridge 5px;
+}
+.general {
+    background-color: #0AC1F2;
+    border: #0602E6 ridge 5px;
+}
+.sidebar1 {
+    background-image: linear-gradient(slategrey, white);
+    font-style: italic;
+    border: whitesmoke ridge 5px;
+}
+.expectations {
+    background-color: #0AC1F2;
+    border: #0602E6 ridge 5px;
+}
+.grid-container2 {
+    background-image: linear-gradient(white, #0AC1F2);
+    border: whitesmoke ridge 5px;
+}
+.item1 {grid-column: 1/ 2;
+        grid-row: 1/ 2;}
+.item2 {grid-column: 1/ 2;
+        grid-row: 2/ 3;}
+.item3 {grid-column: 1/ 2;
+       grid-row: 3/ 4;}
+.item4 {grid-column: 1/ 2;
+       grid-row: 4/ 5;}
+.item5 {grid-column: 1/ 2;
+        grid-row: 5/ 6;}
+.item6 {grid-column: 1/ 2;
+        grid-row: 6/ 7;}   
+footer {
+    background-color: #0AC1F2;
+    border: #0602E6 ridge 5px;  
+}
+@media only screen and (min-width: 768px) {
+    /*For Laptops:*/
+    .grid-container {
+        display: flex;
+}
+.nav-bar {
+    background-color: whitesmoke; 
+    font-style: 'Sriracha', cursive;
+    border: #01786F ridge 5px; 
+}     
+.head {
+    flex: auto;
+    border: #0A6830 ridge 5px;
+    border-radius: 10px;
+    background-color: #01786F
+}
+.main {
+    flex: auto;
+    background-color: #01786F;
+    border: whitesmoke ridge 5px;
+} 
+.table {
+    background-image: none;
+    border: whitesmoke ridge 5px;
+    background-color: #01786F;
+} 
+.images {
+     width: auto;
+    display: grid;
+    flex-direction: row;
+    background-image: none;
+    background-color: #01786F;
+    border: #01786F double 5px;
+}
+.general {
+    background-color: #01786F;
+    border: whitesmoke ridge 5px;
+    font-family: 'Sriracha', cursive;
+}
+.sidebar1 {
+    background-image: linear-gradient(#01786F, whitesmoke);
+    font-style: 'Sriracha', cursive;
+    border: whitesmoke ridge 5px;
+}
+.expectations {
+    background-color: #01786F;
+    border: whitesmoke ridge 5px;
+    font-family: 'Sriracha', cursive;
+}
+.grid-container2 {
+    background-image: linear-gradient(white, #01786F);
+    border: whitesmoke ridge 5px;
+}
+.item1 {grid-column: 2/ 3;}
+.item2 {grid-column: 2/ 3;
+        grid-row: 2/ 3;}
+.item3 {grid-column: 2/ 3;
+       grid-row: 3/ 4;}
+.item4 {grid-column: 2/ 3;
+       grid-row: 4/ 5;}
+.item5 {grid-column: 2/ 3;
+        grid-row: 5/ 6;}
+.item6 {grid-column: 2/ 3;
+        grid-row: 6/ 7;}   
+footer {
+    background-color: #01786F;
+    border: whitesmoke ridge 5px;  
+    text-align: center;}
+}
 }
