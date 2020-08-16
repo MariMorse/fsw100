@@ -22,9 +22,10 @@
     border-radius: 10px;   
 }
 img {
-    display: flex;
+    display: block;
     float: left;
-    flex-direction: column;
+    margin-bottom: 20px;
+
 }
 .item2:hover {
     margin: 50px;
@@ -39,10 +40,9 @@ img {
     border-radius: 10px;
 }
 .img2 {
-    display: flex;
-    float: right;
-    margin-right: 50px;
+    display: block;
     margin-bottom: 10px;
+    margin-left: 60px;
 }
 .item4 {
     text-align: center;
